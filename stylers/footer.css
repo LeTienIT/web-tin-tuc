@@ -1,0 +1,86 @@
+/* Phần chân trang */
+#footer{
+    margin-top: 30px;
+    border: 1px solid black;
+    background: #24a40b;
+    padding: 20px;
+    color: white;
+}
+.top_footer{
+    border-bottom: 1px white dashed;
+}
+.top_footer,
+.bottom_footer{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.top_footer .about_us{
+    padding: 5px 15px 5px 10px;
+    flex: 1 1 60%;
+}
+.about_us p{
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+.about_us h2,
+.info_address h2{
+    text-align: left;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    color: white;
+}
+.about_us p,
+.info_address ul li{
+    margin-top: 10px;
+    text-align: left;
+}
+.top_footer .info_address
+{
+    padding: 5px 10px;
+    flex-grow: 1;
+}
+
+.bottom_footer{
+    margin-top: 10px;
+}
+.bottom_footer .copy_right{
+    flex: 1 1 60%;
+    text-align: left;
+    padding: 10px 15px 0 10px;
+}
+.bottom_footer .icon{
+    flex-grow: 1;
+    padding: 10px 15px 0 10px;
+}
+.icon a i{
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+}
+.icon a i:hover{
+    color: red;
+}
+/* #footer .social-list a{
+    font-size: 16px;
+    padding: 0 10px;
+    text-decoration: none;
+    color: red;
+}
+#footer .social-list a :hover{
+    color: white;
+}
+#footer .copyright{
+    margin-top: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: red;
+
+}
+#footer .copyright a{
+    color: rgb(22, 255, 1);
+}
+#footer .copyright a:hover{
+    color: white;
+} */

@@ -1,0 +1,124 @@
+#main{
+    min-height: 100vh;
+    background-color: #383535;;
+}
+#content_user{
+    display: flex;
+    flex-direction: row;
+}
+#content_user .info_user{
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.form-box-user{
+    width: 100%;
+    padding: 5px 38px;
+}
+.info_user h1,
+.favorite_post h1{
+    padding: 10px 0;
+    text-transform: uppercase;
+    color: white;
+}
+.form-user{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 0;
+}
+.form-user label{
+    padding: 0 0 2px 2px;
+    color: white;
+}
+.form-user input{
+    padding: 1px 5px;
+    font-size: 14px;
+    border-radius: 2px;
+    color: red;
+}
+.form-user-button{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 0 20px;
+}
+.form-user-button input{
+    padding: 3px 10px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+}
+.form-user-button input:hover{
+    background: black;
+    color: white;
+    transition: .5s;
+    cursor: pointer;
+}
+.thong_bao{
+    text-align: center;
+    padding: 2px 0;
+    font-size: 14px;
+    color: red;
+    font-family: 500;
+}
+.favorite_post{
+    padding: 0 20px;
+    width: 55%;
+}
+.favorite_post h1{
+    text-align: center;
+}
+.favorite_post .favorite-content{
+    width: 100%;
+    
+}
+.favorite_post .box{
+    width: 100%;
+    height: 84px;;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    border-bottom: 1px solid white;
+}
+.box .box_text{
+    width: 50%;
+    overflow: hidden;
+}
+.box .box_text p{
+    width: 100%;
+    font-size: 14px;
+    color: white;
+}
+.box .box_img{
+    width: 35%;
+    height: 100%;
+    padding: 2px;
+}
+.box .box_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.box:hover{
+    box-shadow: 1px 2px 2px 5px white;
+}
+.btn_delete{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn_delete input{
+    padding: 2px;
+    background: transparent;
+    font-size: 500;
+    color: white;
+}
+.btn_delete input:hover{
+    color: red;
+    background: white;
+    cursor: pointer;
+}
